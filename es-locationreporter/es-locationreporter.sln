@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StatlerWaldorfCorp.LocationReporter", "..\src\StatlerWaldorfCorp.LocationReporter\StatlerWaldorfCorp.LocationReporter.csproj", "{2375D4AE-AF3C-4BF2-871C-DBAF3839030C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StatlerWaldorfCorp.LocationReporter.Tests", "..\test\StatlerWaldorfCorp.LocationReporter.Tests\StatlerWaldorfCorp.LocationReporter.Tests.csproj", "{E0D765A8-3006-4090-96AF-75B0A0A87D67}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{798FD988-4A95-40CA-8ADC-3D4A5E9C1BA5}"
+	ProjectSection(SolutionItems) = preProject
+		..\wercker.yml = ..\wercker.yml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2375D4AE-AF3C-4BF2-871C-DBAF3839030C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2375D4AE-AF3C-4BF2-871C-DBAF3839030C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2375D4AE-AF3C-4BF2-871C-DBAF3839030C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2375D4AE-AF3C-4BF2-871C-DBAF3839030C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0D765A8-3006-4090-96AF-75B0A0A87D67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0D765A8-3006-4090-96AF-75B0A0A87D67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0D765A8-3006-4090-96AF-75B0A0A87D67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0D765A8-3006-4090-96AF-75B0A0A87D67}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7E35FF9D-73B1-47E2-8E3B-8DB65C31BB9C}
+	EndGlobalSection
+EndGlobal
